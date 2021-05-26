@@ -1,0 +1,159 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    background: linear-gradient(220deg, rgb(6, 26, 13), #1ED760 200%) fixed;
+    color: white;
+}
+
+/* ------------------------------------------------------- */
+
+ul {
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+
+    padding: 15px;
+}
+
+nav ul {
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 30px;
+
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+
+    transition: 0.3s;
+}
+
+.nav-item a:hover {
+    color: #1ED760
+}
+
+#separator {
+    border-right: 2.5px white solid;
+    border-radius: 5px;
+}
+
+#last-nav {
+    margin-right: 100px;
+}
+
+/* ------------------------------------------------------- */
+
+header {
+    margin-top: 10%;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn {
+    background-color: #1ED760;
+    color: black;
+
+    margin-top: 50px;
+    padding: 15px 20px;
+
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0 0 0 3px white;
+}
+
+.btn:active {
+    transition: 0s;
+    background-color: #14863c;
+    color: white;
+    box-shadow: 0 0 0 3px #1ED760;
+}
+
+/* ------------------------------------------------------- */
+
+footer {
+    margin-top: 40%;
+    padding: 5% 20%;
+
+    background-color: #1C1C1C;
+}
+
+.part {
+    width: 700px;
+}
+
+.part h2 {
+    font-size: 34px;
+}
+
+.part p {
+    font-size: 20px;
+}
+
+#separated-logo {
+    position: relative;
+    left: 800px;
+    bottom: 400px;
+}
+
+.copyright {
+    margin-left: 800px;
+    color: #7A7A7A;
+}
+
+.socials {
+    padding: 0;
+    margin: 0;
+
+    margin-top: 50px;
+}
+
+.socials li {
+    display: inline-block;
+
+    padding: 10px;
+    width: 40px;
+
+    background-color: rgb(49, 49, 49);
+
+    border: none;
+    border-radius: 25px;
+
+    margin-right: 10px;
+}
+
+.socials li:nth-child(3) {
+    margin-right: 0;
+}
+
+.socials a {
+    fill: white;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    fill: #1ED760;
+}
