@@ -1,5 +1,6 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -116,7 +117,7 @@ footer {
 #separated-logo {
     position: relative;
     left: 800px;
-    bottom: 400px;
+    bottom: 650px;
 }
 
 .copyright {
